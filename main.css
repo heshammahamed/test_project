@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #333333;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    color: #FFFFFF ;
+    font-size: 4rem;
+    padding: .5em 0em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.first {
+    width: 95%;
+    margin: auto;
+    color: #FFFFFF;
+    padding: 2em 1em ;
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first .content {
+    width: 60%;
+}
+.first h1{
+    width: 100%;
+    font-size: 2.5rem;
+    margin-bottom: .5em;
+}
+.first h1 span{
+    color: #FFFF00 ;
+}
+.first p{
+    font-size: 1.5rem;
+    width: 100%;
+    line-height: 34px;
+}
+.first p span{
+    font-weight: bold;
+    color: #FFFF00 ;
+}
+.first  a{
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: 1em 2em;
+    font-weight: bold;
+    background-color:#FFFF00;
+    border: 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+    .first {
+        width: 100%;
+        color: #FFFFFF;
+    }
+    .first h1{
+        font-size: 2rem;
+    }
+    .first p{
+        font-size: 1.5rem;
+    }
+}
+  /* Medium */
+@media (max-width: 900px) {
+    .first {
+        flex-direction: column;
+        justify-content:center;
+    }
+    .first .content {
+        width: 100%;
+        margin-bottom: 7em;
+    }
+}
+  /* Large */
+@media (min-width: 1200px) {
+    .first .content {
+        width: 50%;
+    }
+}
+
+/* /////////////////////////////////test page /////////////////// */
+.timer {
+    font-size:6rem;
+    padding: .2em 0em;
+}
+.questions {
+    text-align: center;
+    padding-top: 20px;
+    box-shadow: inset -2px 13px 11px 4px rgba(0, 0, 0, 0.2)
+    ;
+    background-color: white;
+    width: 95%;
+    margin: auto;
+    height: 76vh;
+}
+.questions p{
+    font-size: 7rem;
+    padding-bottom: 2em;
+}
+.questions div button{
+    background-color: #FFFF00;
+    outline: none;
+    border: 1px;
+    font-size: 1rem; 
+    padding: .5em 1em ;
+}
+.two {
+    display: none;
+}
+.three {
+    display: none;
+}
+/* .three .true {
+    position: absolute;
+} */
+.fall {
+    display:none;
+    height: 100vh;
+    place-content: center;
+    color: white;
+}
+.fall  a{
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 2rem;
+    padding: .2em .3em;
+    font-weight: bold;
+    background-color:#FFFF00;
+    border: 0px;
+    border-radius: 5px;
+    color: #FFFFFF;
+    text-align:center;
+    margin-top: 2em;
+}

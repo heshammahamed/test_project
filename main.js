@@ -17,8 +17,8 @@ two_ans.addEventListener("click" , ()=> {
     two.style.display = "none";
     three.style.display = "block";
 })
-let hh =  [20 ,100 , 200 , 400 , 700 , 0];
-let mm = [30 ,50 , 30 , 200 , 0 , 300];
+let hh =  [20 ,100 , 200 , 400 , 700 , 0 , 560 , 600];
+let mm = [30 ,100 , 150 , 240 , 0 , 300 , 79 ];
 let uu;
 let zz;
 three_ans.addEventListener("click" , ()=> {
@@ -69,7 +69,7 @@ const check = function () {
         console.log("hi");
     }
 }
-setInterval(time_out , 1000);
+setInterval(time_out , 1500);
 
 const kk = function () {
     if( second.innerHTML == 0) {
